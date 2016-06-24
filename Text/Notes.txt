@@ -1,0 +1,6 @@
+Notes/ideas
+
+
+We have self deleting script, but i want to make the shell prosses automated.
+I want to be able to controll the trojan, and implement a botnet aspect, perhaps botdragon has something of use to me.
+
